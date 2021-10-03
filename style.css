@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets the background color for the body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* sets the padding, font, background color and text color of the header */
+header{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* sets the font size and display of the h1 tag in the header section */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* sets the color of the .seo class */
+h1 .seo {
+    color: #d9dcd6;
+}
+
+/* sets the properties of the nav element in the header*/
+nav {
+    /* sets padding at the top */
+    padding-top: 15px;
+    /* sets a margin of 20px on the right*/
+    margin-right: 20px;
+    /* sets the nav to floating to the right in the header */
+    float: right;
+    /* sets font size and family to nav*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets list style type to nav list*/
+av ul {
+    list-style-type: none;
+}
+
+/*sets display and left margin properties*/
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*  sets color with hexcodes */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets font size to paragraph property */
+p {
+    font-size: 16px;
+}
+
+/* sets the properties to hero section in the body */
+.hero {
+    /* sets the height and with of the section */
+    height: 800px;
+    width: 100%;
+    /* sets the bottom margin of the section */
+    margin-bottom: 25px;
+    /* sets background image, size and postiion of the secion */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets width, display and left margin of the section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* sets properties to three sections with the same class */
+.card {
+    /* sets bottom margin, padding all around and heigh of the sections */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    /* sets font family of the sections */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets background color and text color with hex codes */
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets bottom margin, font size and max height to h2 element in card section */
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: 200px;
+}
+
+/* sets float property, right margin and max height to images with float-left class */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* sets float property, left margin and max height to images with float-right class */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* sets properties to aside element */
+aside {
+    /* sets right margin and padding to element */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    /* sets the height and width of the element */
+    width: 20%;
+    height: 100%;
+    /* sets the font family and background color with hex code */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* sets the bottom margin of the articles and background color with hex code */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets the bottom margin and text alignment of the h3 heading in the articles */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* sets the display, margin all around and max-width of benefit image */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets padding, font family and text alignment to the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* sets the font size of the h4 heading in the footer*/
+footer h4 {
+    font-size: 20px;
+}
